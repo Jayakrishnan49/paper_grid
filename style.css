@@ -1,0 +1,35 @@
+.small{
+    background-color:black;
+    color:white;
+}
+.info{
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration:none;
+    color:white;
+}
+.info a{
+    text-decoration:underline;
+    color:rgba(207, 205, 205, 0.863);
+
+}
+.last{
+    background-color: black;
+    color:rgba(207, 205, 205, 0.863);
+}
+.last a{
+    color:rgba(207, 205, 205, 0.863);
+    text-decoration: none; 
+}
+@media screen and (max-width:1000px) {
+    .aboutbtn{
+        background-color:rgb(43, 42, 42);
+        color:white;
+        border-radius: 5px;
+        border: none;
+    }
+
+    
+}
